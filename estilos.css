@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #222;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.container {
+    margin: 20px;
+}
+
+.titulo-principal {
+    color: #ddd;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.pedidos-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pedido {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #444;
+    width: 200px;
+}
+
+.imagen-pedido {
+    max-width: 100%;
+    height: auto;
+}
+
+.mensaje-vacio {
+    color: #999;
+    text-align: center;
+}
+
+.eliminar-btn,
+.finalizar-btn {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    padding: 8px 16px;
+    background-color: #ff6666;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.finalizar-btn {
+    background-color: #66cc66;
+}
+
+.realizar-pedido {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.realizar-pedido label {
+    display: block;
+    margin-bottom: 8px;
+    color: #b3b3b3;
+}
+
+.realizar-pedido input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.realizar-pedido input[type="submit"] {
+    background-color: #339966;
+    color: #fff;
+    cursor: pointer;
+}
+
+.realizar-pedido input[type="submit"]:hover {
+    background-color: #2d8053;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #b3b3b3;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.login-form input[type="submit"] {
+    background-color: #339966;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #2d8053;
+}
+
+.mensaje-error {
+    color: #ff6666;
+    text-align: center;
+    margin-top: 10px;
+}
+
